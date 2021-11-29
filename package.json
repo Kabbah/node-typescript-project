@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "test": "mocha tests/**/*.ts --require ts-node/register"
   },
   "repository": {
     "type": "git",
