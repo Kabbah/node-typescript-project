@@ -4,6 +4,6 @@
     "noEmit": true,
     "allowJs": true
   },
-  "include": ["src/**/*.ts", ".eslintrc.js"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", ".eslintrc.js"],
   "exclude": ["node_modules"]
 }
