@@ -1,0 +1,27 @@
+{
+  "name": "typescript-project",
+  "version": "0.1.0",
+  "description": "A quick setup for Node.js Typescript projects",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kabbah/node-typescript-project.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "typescript",
+    "project",
+    "base",
+    "boilerplate"
+  ],
+  "author": "Victor Barpp Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kabbah/node-typescript-project/issues"
+  },
+  "homepage": "https://github.com/Kabbah/node-typescript-project#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
