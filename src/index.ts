@@ -1,4 +1,4 @@
-import { getHelloWorld } from "../src/hello_world";
+import { getHelloWorld } from "./hello_world";
 
 function main(): void {
     console.log(getHelloWorld());
