@@ -77,7 +77,7 @@ module.exports = {
         "@typescript-eslint/no-unnecessary-qualifier": "warn",
         "@typescript-eslint/non-nullable-type-assertion-style": "warn",
         "@typescript-eslint/no-unused-expressions": "warn",
-        "@typescript-eslint/no-use-before-define": "warn",
+        "@typescript-eslint/no-use-before-define": ["warn", "nofunc"],
         "@typescript-eslint/no-useless-constructor": "warn",
         "@typescript-eslint/object-curly-spacing": ["warn", "always"],
         "@typescript-eslint/padding-line-between-statements": [
