@@ -106,7 +106,7 @@ module.exports = {
         "@typescript-eslint/type-annotation-spacing": "warn",
         "@typescript-eslint/unified-signatures": "warn",
         "accessor-pairs": "warn",
-        "array-bracket-newline": ["warn", { multiline: true }],
+        "array-bracket-newline": ["warn", "consistent"],
         "array-bracket-spacing": ["warn", "never"],
         "array-element-newline": ["warn", "consistent", { multiline: true }],
         "array-callback-return": ["error", { checkForEach: true }],
