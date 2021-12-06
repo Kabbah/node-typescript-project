@@ -55,6 +55,7 @@ module.exports = {
                 leadingUnderscore: "allow",
                 trailingUnderscore: "allow",
             },
+            { selector: "objectLiteralProperty", format: null },
         ],
         "@typescript-eslint/no-base-to-string": "warn",
         "@typescript-eslint/no-confusing-non-null-assertion": "warn",
