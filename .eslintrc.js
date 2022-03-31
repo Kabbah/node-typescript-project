@@ -1,7 +1,7 @@
 module.exports = {
     root: true,
     env: {
-        es2021: true,
+        es2022: true,
         node: true,
         mocha: true,
     },
@@ -101,6 +101,7 @@ module.exports = {
         "@typescript-eslint/restrict-template-expressions": ["error", { allowNumber: true, allowBoolean: true, allowNullish: true }],
         "@typescript-eslint/return-await": ["warn", "never"],
         "@typescript-eslint/semi": ["error", "always"],
+        "@typescript-eslint/space-before-blocks": "warn",
         "@typescript-eslint/strict-boolean-expressions": "error",
         "@typescript-eslint/switch-exhaustiveness-check": "warn",
         "@typescript-eslint/type-annotation-spacing": "warn",
@@ -194,6 +195,7 @@ module.exports = {
         "prefer-arrow-callback": "warn",
         "prefer-const": "warn",
         "prefer-numeric-literals": "warn",
+        "prefer-object-has-own": "warn",
         "prefer-object-spread": "warn",
         "prefer-promise-reject-errors": "error",
         "prefer-regex-literals": "warn",
@@ -208,7 +210,7 @@ module.exports = {
         "semi-spacing": "warn",
         "semi-style": "warn",
         "sort-imports": ["warn", { ignoreDeclarationSort: true, allowSeparatedGroups: true }],
-        "space-before-blocks": "warn",
+        "space-before-blocks": "off",
         "space-before-function-paren": ["warn", { anonymous: "always", named: "never", asyncArrow: "always" }],
         "space-in-parens": "warn",
         "spaced-comment": "warn",
